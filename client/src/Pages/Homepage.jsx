@@ -21,8 +21,8 @@ const Homepage = ({ }) => {
      <header className="header">
           <h1>WorkJam</h1>
           <div>
-          <Link to="/login"><button className='login-btn'>Login</button></Link>
-          <Link to="/login"><button className='login-btn'>SignUp</button></Link>
+          <Link to="/signup"><button className='login-btn'>Login</button></Link>
+          <Link to="/signup"><button className='login-btn'>SignUp</button></Link>
           </div>
         </header>
       <section className="intro">
