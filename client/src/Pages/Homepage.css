@@ -1,7 +1,7 @@
 .landing-page {
     background-color: #121212;
     color : white;
-    width: 100vw;
+    width: calc(100%-20px);
     padding: 0px;
     display: flex;
     flex-direction: column;
