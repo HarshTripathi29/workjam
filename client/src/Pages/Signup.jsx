@@ -3,6 +3,7 @@ import {useNavigate} from "react-router-dom";
 import "./Signup.css";
 import axios from "axios";
 
+
 const Signup = () => {
 
   const [firstname, setFirstname] = useState("");
@@ -36,7 +37,7 @@ const Signup = () => {
         email,
         password
       }); 
-
+    
       console.log(response.data);
 
     }catch(error){

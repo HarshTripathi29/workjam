@@ -3,3 +3,8 @@
     background-color: #121212;
     height : 70vh;
 }
+.boards-list ul{
+    display: flex;
+    flex-direction: row;
+
+}

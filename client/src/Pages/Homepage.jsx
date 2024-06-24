@@ -31,7 +31,7 @@ const Homepage = ({ }) => {
       <div>
         <img  className='home-image'src='https://html.creativegigstf.com/deski/deski/images/assets/ils_20.svg'/>
       </div>
-      <Link to='/workspace'><button onClick={handleGetStarted} className='landingBtn'>Get Started</button></Link>
+      <Link to='/dashboard'><button onClick={handleGetStarted} className='landingBtn'>Get Started</button></Link>
 
       <div className='description'>
         <p>Effortlessly track tasks and maintain organization with our product. Capture your ideas and easily find them later, ensuring nothing slips through the cracks.</p>
