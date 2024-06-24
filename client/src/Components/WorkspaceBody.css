@@ -1,5 +1,5 @@
 .workspace-body{
-    border : 2px solid rgb(225, 254, 0);
-    background-color: aqua;
+    border : none;
+    background-color: #121212;
     height : 70vh;
 }
